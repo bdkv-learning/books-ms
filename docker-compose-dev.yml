@@ -6,7 +6,7 @@ app:
     - db:db
 
 db:
-  image: mongo
+  image: mongo:4
 
 tests:
   image: 192.168.60.200:5000/books-ms-tests
