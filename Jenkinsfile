@@ -1,6 +1,6 @@
 node("cd") {
     def serviceName = "books-ms"
-    def registryIpPort = "192.168.200:5000"
+    def registryIpPort = "192.168.60.200:5000"
 
     checkout scm
     def flow = load "/data/scripts/workflow-util.groovy"
